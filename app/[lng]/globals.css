@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  background: transparent !important;
+  width: 0px !important;
+}
+
+.pac-container,
+.pac-item {
+  background: #262742 !important;
+  padding: 10px 10px;
+  color: white !important;
+  border: none !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.pac-item:hover {
+  cursor: pointer;
+  background: #3a3b65 !important;
+}
+
+.pac-item-query {
+  color: white !important;
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.rdrDateRangePickerWrapper {
+  background: #262742 !important;
+  padding: 10px 5px 10px 5px !important;
+  border: solid 0.5px lightgray !important;
+}
+
+.rdrDefinedRangesWrapper {
+  font-size: 12px;
+  border-right: solid 0.5px lightgrey !important;
+  background: #262742 !important;
+}
+
+.rdrCalendarWrapper {
+  background: #262742 !important;
+  color: #fff !important;
+}
+
+.rdrDateDisplayWrapper {
+  background-color: #3a3b65 !important;
+}
+
+/* for date form input */
+.rdrDateDisplayItem {
+}
+
+/* month pickers */
+.rdrMonthAndYearWrapper {
+  color: white !important;
+}
+
+.rdrMonthName {
+  margin: 10px 0px !important;
+}
+
+/* month picker select */
+.rdrMonthAndYearPickers select {
+  color: #262742 !important;
+  background-color: white !important;
+}
+
+.rdrMonthName,
+.rdrWeekDay,
+.rdrDayNumber > span {
+  color: #fff !important;
+}
+
+.rdrMonthName:hover,
+.rdrWeekDay:hover,
+.rdrStaticRanges > button :hover {
+  background: #3a3b65 !important;
+}
+
+.rdrStaticRange {
+  border-bottom: 1px solid #3a3b65 !important;
+  background: #262742 !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.rdrInputRanges {
+  display: none !important;
+}
+
+.toast {
+  width: 700px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 0px 8px 22px -6px #18274b1f;
+}
